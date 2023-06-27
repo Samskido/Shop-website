@@ -298,3 +298,160 @@ h4{
     text-align: center;
     margin-bottom: 2rem;
 }
+
+
+
+
+
+.media-queryy{
+    display: none;
+}
+#hamburger-icon{
+    margin-top: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: none;
+    cursor:pointer;
+}
+
+#hamburger-icon div{
+    width:45px;
+    height: 5px; 
+    margin: 2px 7px 2px 5px;
+    transition: 0.4s;
+    background:#000;
+
+
+}
+
+
+.open .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform:rotate(-45deg) translate(-6px, 6px); 
+}
+
+.open .bar2 {
+    opacity: 0px;
+}
+
+.open .bar3 {
+ -webkit-transform: rotate(45deg) translate(-6px, -20px);
+transform: rotate(45deg) translate(-6px, -10px);
+}
+
+ 
+.open .mobile-menu  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    margin-top: 30px;
+    gap:10px;
+    background-color:#100D22;
+    width: 100px;
+    list-style: none;
+    font-family: plusjakarta;
+    font-weight: 500;
+    font-size: 13px;
+ 
+    
+}
+
+.mobile-menu a{
+    text-decoration: none;
+    color:white;
+    margin-top: 2rem;
+   
+}
+
+.mobile-menu{
+    display: none;
+}
+.ward{
+    display: none;
+}
+.media-text ul{
+    display: none;
+}
+ .media-image img{
+    display: none;
+ }
+
+
+@media only screen and (max-width: 320px){
+    #hamburger-icon{
+        display: block;
+        margin-right: -6rem;
+        margin-top: 1rem;
+       
+    }
+    body{
+        width: 100%;
+    }
+    .open .mobile-menu {
+        margin-left: -1rem;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .media-queryy{
+        display: flex;
+        justify-content: space-between;
+        position: sticky;
+    }
+
+    .nav-image img{
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+
+    .landing-page{
+        display: none;
+    }
+    .media-text ul{
+        display: flex;
+        margin-left: 5rem;
+        list-style: none;
+        gap:2rem;
+        font-weight: 700;
+        font-size: 9px;
+        font-family: PlusJakarta;
+        margin-top: 3rem;
+    }
+    .media-text a{
+        text-decoration: none;
+        color:#182568;
+    }
+    .sort{
+        margin-left: 41rem;
+        text-decoration: none;
+        font-weight: 700;
+        font-family: plusjakatar;
+        font-size: 11px;
+        color:#100D22
+    }
+
+    .media-image img{
+        width: 300px;
+        margin-left: 5rem;
+        margin-top: 2rem;
+        display: block;
+    }
+
+    .footer-text{
+     flex-direction: column;
+    }
+    .ward{
+        display: contents;
+        font-weight: 700;
+        font-family:  plusjakatar;
+        font-size: 13px;
+        color:#878690;
+        line-height: 27.2px;
+    }
+    .second-footer-text, .third-footer-text{
+      
+       
+    
+    }
+}
