@@ -1,0 +1,300 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: plusjakarta;
+    src: url("../PlusJakartaSans-Light.ttf");
+}
+.nav-bar {
+    display: flex;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    
+}
+.left-menu-div {
+    display: flex;
+    list-style: none;
+    
+}
+.left-menu-div a{
+    text-decoration: none;
+    color:#100D22;
+    font-family: plusjakarta;
+    font-weight: 700;
+    margin-left: 1rem;
+    font-size: 18px;
+}
+.right-menu{
+    margin-left: auto;
+    display: flex;
+    margin-right: 5rem;
+    gap:4rem;
+    list-style: none;
+}
+.right-menu a{
+    text-decoration: none;
+   color:#100D22;
+   font-family: plusjakarta;
+   font-weight: 700;
+   font-size: 18px;
+}
+.right-menu img{
+  margin-left: 1rem;
+    background:  #F6F6F6;
+    width: 20px;
+    height: 20px;
+    border-radius: 21px;
+    left:11px;
+    top:11px;
+   
+}
+.fa-search{
+    margin-right: 0.5rem;
+    color:rgba(0, 0, 0, 0.322);
+}
+.logo img{
+    margin-right: 5rem;
+    margin-left: 3rem;
+}
+
+.small-text{
+    margin-top: 3rem;
+    margin-left: 7rem;
+    margin-bottom: 1.7rem;
+}
+.small-text a{
+    text-decoration: none;
+}
+.color-words{
+    color:#878690;
+    font-size: 11px;
+    font-family: plusjakarta;
+    font-weight: 700;
+}
+.words{
+    color:#100D22;
+    font-size: 11px;
+    font-family: plusjakarta;
+    font-weight: 700;
+}
+.landing-texts{
+    margin-left: 7rem;
+}
+.landing-texts a{
+    text-decoration: none;
+}
+.first-landing-text{
+    color:#182568;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: plusjakarta;
+}
+.landing-text{
+    font-size: 14px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: plusjakarta;
+    color:#182568;
+}
+.space{
+    border-bottom: 1px solid #DBDBDE;
+    margin: 30px;
+    border: 1px 0px 0px 0px;
+    width: 220px;
+    margin-left: 0.1rem;
+}
+h6{
+    font-size: 14px;
+    font-family: plusjakarta;
+    font-weight: 700;
+    color:#182568;
+    margin-left: 0.4rem;
+    margin-bottom: 1rem;
+    margin-top: 1.2rem;
+}
+input, ::placeholder{
+    padding-left: 0.5rem;
+    font-weight: 700;
+    font-family: plusjakarta;
+    font-size: 12px;
+    color:#495057;
+}
+p{
+    font-weight: 700;
+    font-family: plusjakarta;
+    font-size: 14px;
+    color:#182568;
+}
+.inputs-boxs{
+    display: flex;
+    margin-left: 0.1rem;
+    gap:10px
+}
+.line img{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 240px;
+}
+.space2{
+    border-bottom: 1px solid #DBDBDE;
+    margin: 30px;
+    border: 1px 0px 0px 0px;
+    width: 240px;
+    margin-left: 0.1rem;
+    margin-top: 1rem;
+}
+#images-color img{
+    width: 270px;
+    margin-left: -5%;
+}
+.landing-page{
+    display: flex;
+    width: 100%;
+}
+h4{
+    font-size: 14px;
+    font-family: plusjakatar;
+    font-weight: 700;
+    color:#182568;
+    margin-bottom: 1rem;
+}
+
+.only-image img{
+    width: 950px;
+    padding-left: 10%;
+    padding-right: 6%;
+    padding-top: 4%;
+    margin-bottom: 5%;
+}
+.sort {
+   margin-left: 51rem;
+   text-decoration: none;
+   font-weight: 700;
+   font-family: plusjakatar;
+   font-size: 11px;
+   color:#100D22
+}
+
+.fa-angle-down {
+    margin-left: 0.5rem;
+}
+.space3{
+    border-bottom: 1px solid #DBDBDE;
+    margin: 30px ;
+    border:1px, 0px, 1px, 0px
+}
+.footer-section{
+    margin-left: 5rem;
+    margin-bottom: 4rem;
+    
+}
+
+.footer-text {
+    display: flex;
+    gap:10rem;
+}
+.first-footer-text {
+    list-style: none;
+}
+.second-footer-text{
+    list-style: none;
+    margin-top: -3rem;
+}
+.second-footer-text a{
+    text-decoration: none;
+   
+}
+.third-footer-text{
+    list-style: none;
+    margin-top: -3rem;
+}
+.third-footer-text a{
+    text-decoration: none;
+}
+.fourth-footer-text{
+    list-style: none;
+    margin-top: -3rem;
+}
+.heading{
+    font-size: 14px;
+    font-family: plusjakarta;
+    font-weight: 700;
+    color:#182568;
+    line-height: 20.8px;
+}
+.paragraphs{
+    font-size: 13px;
+    font-weight: 700;
+    font-family: plusjakarta;
+    color:#878690;
+    line-height: 29.2px;
+}
+.input-box{
+    border: 0;
+    color: #000;
+    outline: none;
+    padding: 6px;
+    background: transparent;
+    
+  }
+  .fourth-footer-text button{
+    border: 0;
+    background: #F6FB04;
+    height: 100%;
+    padding: 17px 48px 19px 48px;
+    border-radius: 50px;
+    margin-left: 5rem;
+    font-size: 11px;
+    font-family: plusjakarta;
+    font-weight: 700;
+  }
+  .fourth-footer-text button a{
+    text-decoration: none;
+    color: #182568;
+  }
+  .email-2{
+    width: 380px;
+   background: #F6F6F6;
+    height: 54px;
+    border-radius: 30px;
+    margin-top: 25px;
+    border-radius: 100px;
+    top:32.8px;
+    left:15px;
+    margin-bottom: 1rem;
+  }
+  .email-2 ::placeholder{
+    font-size: 11px;
+    color:#757575;
+    font-weight: 700;
+    font-family: plusjakarta;
+    line-height: ;
+    position:absolute;
+  }
+  .fourth-footer-text h2{
+    font-size: 13px;
+    font-weight: 700;
+    color:#182568;
+    font-family: plusjakarta;
+    line-height: 16.8px;
+  }
+  .fa-instagram, .fa-facebook-square, .fa-twitter{
+    color:#878690;
+   padding:10px;
+  }
+  .space4{
+    border-bottom: 1px solid #DBDBDE;
+    margin: 30px ;
+    border:1px, 0px, 1px, 0px
+}
+.last-footer-words h5{
+    font-weight: 700;
+    font-family: plusjakarta;
+    color:#878690;
+    font-size: 11px;
+    line-height: 27.2px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
